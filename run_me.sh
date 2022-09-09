@@ -7,6 +7,12 @@ sudo apt-get install vim
 
 sudo apt-get install zsh -y
 
+
+
+#install git
+
+sudo apt-get install git-all -y
+
 #install docker
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
