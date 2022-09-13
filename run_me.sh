@@ -21,6 +21,13 @@ sudo apt update
 sudo apt install openssh-server -y
 
 
+#install Google-chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+run google-chrome-stable_current_amd64.deb 
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt-get install -f 
+
+
 #install docker
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
