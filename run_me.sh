@@ -3,14 +3,16 @@
 sudo apt update
 sudo apt upgrade
 sudo apt-get update
+
+#install vim
 sudo apt-get install vim
 
-sudo apt-get install zsh -y
 
-
+#install zsh
+#sudo apt-get install zsh -y
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" -y
 
 #install git
-
 sudo apt-get install git-all -y
 
 
