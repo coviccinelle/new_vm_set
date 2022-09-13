@@ -21,11 +21,14 @@ sudo apt update
 sudo apt install openssh-server -y
 
 
+#install Make
+sudo apt-get install make
+
 #install Google-chrome
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-run google-chrome-stable_current_amd64.deb 
-sudo dpkg -i google-chrome-stable_current_amd64.deb
-sudo apt-get install -f 
+#wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+#run google-chrome-stable_current_amd64.deb 
+#sudo dpkg -i google-chrome-stable_current_amd64.deb
+#sudo apt-get install -f 
 
 
 #install docker
