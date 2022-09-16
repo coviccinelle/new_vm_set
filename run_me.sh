@@ -17,6 +17,8 @@ sudo apt-get install git-all -y
 
 #install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# go to ~/.zshrc and edit theme into "muse"
+
 
 #install ssh
 sudo apt update
