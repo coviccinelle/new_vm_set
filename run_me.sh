@@ -4,8 +4,8 @@ sudo apt update
 sudo apt upgrade
 sudo apt-get update
 
-#ping
-apt-get install iputils-ping
+#ping -> netcat -> irssi
+apt-get install -y iputils-ping netcat irssi
 
 #clang
 apt-get install clang
