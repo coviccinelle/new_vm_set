@@ -4,6 +4,17 @@ sudo apt update
 sudo apt upgrade
 sudo apt-get update
 
+#ping
+apt-get install iputils-ping
+
+#clang
+apt-get install clang
+
+#curl -> zsh -> Zsh
+apt-get isntall -y curl zsh
+
+#ping google and check ip a for ip adress -> create ssh-keygen -b 2048 -t rsa
+
 #install vim
 sudo apt-get install vim
 
